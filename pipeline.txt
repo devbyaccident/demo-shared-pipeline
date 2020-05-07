@@ -1,0 +1,1 @@
+Pipeline from https://github.com/devbyaccident/azure-voting-app-redis
