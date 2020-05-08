@@ -1,1 +1,1 @@
-Pipeline from https://github.com/devbyaccident/azure-voting-app-redis
+Takes a message in the `message` parameter and prints it.
