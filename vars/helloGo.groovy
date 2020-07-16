@@ -5,7 +5,7 @@ def call (body) {
    body()
 
    pipeline {
-      agent any
+      agent none
       stages {
          stage('Hello From Container') {
             agent { docker 'golang:alpine3.12' }
