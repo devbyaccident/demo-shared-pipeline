@@ -8,7 +8,7 @@ def call (body) {
       agent any
       stages {
          stage('Hello From Container') {
-            agent { docker 'golang:latest' }
+            agent { docker 'golang:alpine3.12' }
             steps {
                echo "Hello Go"
                sh "go version"
